@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;src&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/k8s.io" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/src" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/hc_test" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/.idea" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/zookeeper-3.4.10" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/pkg" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/github.comcast.com" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/k8s.io" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/src" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/hc_test" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/.idea" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/zookeeper-3.4.10" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/pkg" />
+      <root url="file://$PROJECT_DIR$/../share_virtual/vmr01/rio-workspace/src/github.comcast.com" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/src" />
+    </excluded>
+  </library>
+</component>

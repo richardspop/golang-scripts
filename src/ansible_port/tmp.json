@@ -1,0 +1,6 @@
+localhost   ansible_connection=local
+[all]
+[all:vars]
+vmr_k8s_master_fqdn="<filled with master fqdn>"
+vmr_k8s_master_port="<filled with master port>"
+kubernetes_flavor="openshift"

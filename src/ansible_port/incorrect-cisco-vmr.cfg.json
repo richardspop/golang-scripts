@@ -1,0 +1,59 @@
+{
+	"reconpath": "rio/recon-standalone13",
+	"archivepath": "rio/archive-standalone13",
+	"activepath": "rio/active-standalone13",
+	"siteId": "ciscok8s",
+	"locality": "VMR13_RECORDER_MGR",
+	"vsrm": "172.22.110.171:80",
+	"k8sMaster": "172.22.123.21",
+	"objstorePassword": "cisco123",
+	"objstoreUsername": "cisco",
+	"objectstore": [
+		"172.22.110.158"
+	],
+	"consulIP": "",
+	"dbPassword": "",
+	"dbUsername": "root",
+	"databasePort": 3306,
+	"databaseIP": [
+		"172.22.123.33",
+		"172.22.123.34",
+		"172.22.123.35"
+	],
+	"databaseMasterPort": 3306,
+	"databaseMasterIP": "172.22.123.33",
+	"dockerRegIp": "172.22.7.58"
+	"platformInfo": {
+		"path": "platform/resources/config",
+		"packageName": "cisco-k8s-upic",
+	}
+	"bulkDelete": "false",
+	"objStoreVip": "",
+	"optimizeObjStore": "proxy",
+	"usePutCopy": true,
+	"adaptationBaseURL": true,
+	"maxChannels": 7,
+	"jitpServicePort": 9080,
+	"rioApiPort": 9449,
+	"dataPlaneVip": "",
+	"haproxyVip": "172.22.123.22",
+	"vmrServiceIp": "172.22.123.22",
+	"vmrServiceFqdn": "vmr02.mosdns.com",
+	"openshiftRouterPort": 80,
+	"openshiftPlatform": "Yes",
+	"jitpServiceHost": "http://13vmrstandalonempe.pe1.mosdns.com/13vmrstandalonempe/",
+	"rioApiHost": "13vmrstandalone.com",
+	"sensuServerIP": "",
+        "sensuServerPort": "5672",
+        "sensuServerVHost": "sensu",
+        "sensuServerUsername": "ivpuser",
+        "sensuServerPassword": "ivp123",
+
+	"httpsProxy": "",
+	"httpProxy": "",
+	"logServerType": "X1_ELK",		###Set LOG Server Type as ELK, KAFKA or X1_ELK based on your server type###
+	"logServer": "192.0.2.0", 		###Set LOG Server IP for ELK or X1_ELK server types###
+	"elasticsearchPort": 4000, 		###Set Port to be used for ELK or X1_ELK server types###
+	"kafkaDefaultTopic": logs, 		###Set Default Topic for KAFKA server type###
+	"kafkaIhPort": 192.0.2.1:2181 	###Set Zookeeper Endpoint for KAFKA server type. <IP>:<PORT> pairs. Can be a comma separated list###
+}
