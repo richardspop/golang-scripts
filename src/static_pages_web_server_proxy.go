@@ -31,8 +31,8 @@ type SrcDestPair struct {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-        fmt.Println("map : ", assignment_map)
-        if val, ok := assignment_map[r.URL.Path[1:]]; ok {
+        fmt.Println(r.URL.Path[strings.LastIndex(r.URL.Path, "/") + 1:])
+        if val, ok := assignment_map[r.URL.Path[strings.LastIndex(r.URL.Path, "/") + 1:]]; ok {
 
                 Openfile, err := os.Open(val)
                 defer Openfile.Close()
